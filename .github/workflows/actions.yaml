@@ -19,7 +19,7 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          REMOTE_HOST: 54.174.150.168
+          REMOTE_HOST: 3.83.90.144
           REMOTE_USER: ubuntu
           TARGET: /var/www/html/wordpress
           
